@@ -1,0 +1,149 @@
+/* Update styles.css */
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: #111111;
+  line-height: 1.6;
+  margin: 0 10px 10px 10px;
+  padding: 0 10px 10px 10px;
+}
+
+#resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  position: relative; 
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+}
+
+/* Header Section */
+h1 {
+  font-size: 34px;
+  margin: 0 0 5px 0;
+  color: #111111;
+}
+
+h2 {
+  font-size: 20px;
+  color: #111111;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 5px;
+  margin: 25px 0 15px 0;
+}
+
+/* Contact Information */
+p {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #999999;
+  line-height: 1;
+}
+
+a {
+  color: #111111;
+  text-decoration: none;
+}
+
+/* Experience Sections */
+ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+strong {
+  color: #111111;
+}
+
+/* Date Styling */
+.date {
+  float: right;
+  color: #999999;
+  font-size: 14px;
+}
+
+/* Skills Section */
+.skills {
+  columns: 2;
+  column-gap: 40px;
+}
+
+/* Download Button */
+.download-btn {
+  position: fixed; /* Changed from fixed */
+  bottom: 20px;
+  right: 20px;
+  background: #111111;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 1000;
+  /* Removed transform/left positioning */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow */
+}
+
+.download-btn:hover {
+  background: #5e635f;
+  transform: scale(1.05); /* Optional hover effect */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+@media print {
+    @page {
+    size: A4;
+    margin: 0in 0.1in 0.1in 0.1in;
+    scale: 88
+  }
+  body {
+    font-size: 12px;
+    line-height: 1;
+    margin: 0.5cm;
+  }
+
+  #resume-container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  h1 { font-size: 18px !important; }
+  h2 { font-size: 14px !important; }
+  
+  ul, ol {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  li {
+    margin-bottom: 4px;
+    padding: 0;
+  }
+
+  /* Compact table formatting */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  td, th {
+    padding: 2px 5px;
+    border: none;
+  }
+
+  /* Remove unnecessary spacing */
+  br { display: none; }
+  hr { margin: 5px 0; }
+  
+  /* Prevent page breaks inside sections */
+  .experience-block {
+    page-break-inside: avoid;
+  }
+}
