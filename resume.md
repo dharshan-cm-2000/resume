@@ -49,10 +49,10 @@
 
 ## Certifications
 
-* ##### [Microsoft Certified Azure Data Engineer Associate - DP-203](https://learn.microsoft.com/en-us/users/ajayj2000-0407/credentials/2317b44b3714ff37)
-* ##### [Microsoft Certified Azure AI Engineer Associate - AI-102](https://learn.microsoft.com/en-us/users/ajayj2000-0407/credentials/dc414fdef18fe56a)
-* ##### [Databricks Accredited Azure Platform Architect](https://credentials.databricks.com/f7acb3db-f793-4f83-84d3-d0e52b143229#acc.Tb9RewVg)
-* ##### [Gen AI and LLM on Databricks](https://credentials.databricks.com/044a0269-9bb0-46cb-a5fa-3d76ebb6db39#acc.UL8rip1e)
+* #### [Microsoft Certified Azure Data Engineer Associate - DP-203](https://learn.microsoft.com/en-us/users/ajayj2000-0407/credentials/2317b44b3714ff37)
+* #### [Microsoft Certified Azure AI Engineer Associate - AI-102](https://learn.microsoft.com/en-us/users/ajayj2000-0407/credentials/dc414fdef18fe56a)
+* #### [Databricks Accredited Azure Platform Architect](https://credentials.databricks.com/f7acb3db-f793-4f83-84d3-d0e52b143229#acc.Tb9RewVg)
+* #### [Gen AI and LLM on Databricks](https://credentials.databricks.com/044a0269-9bb0-46cb-a5fa-3d76ebb6db39#acc.UL8rip1e)
 
 ## Awards and Achievements
 **Flawless Finishers — ZS Associates**
