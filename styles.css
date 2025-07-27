@@ -1,6 +1,6 @@
 /* Update styles.css */
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Abhaya Libre', Calibri, 'Times New Roman' !important; 
   background-color: white;
   color: #111111;
   line-height: 1.6;
@@ -9,12 +9,13 @@ body {
 }
 
 #resume-container {
+  font-family: 'Abhaya Libre', Calibri, 'Times New Roman' !important;
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
   background: white;
   position: relative; 
-  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* Header Section */
